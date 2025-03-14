@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div className="flex justify-center w-full mb-[-100px]">
+        <div className="flex justify-center w-full mb-[-100px] text-white">
             <div className="flex flex-row items-center justify-between w-[1280px] h-[100px] font-medium text-[16px] z-[100]">
                 <div className="flex items-center font-bold text-white text-[30px]">LOGO</div>
                 <ul className="flex flex-row items-center justify-center gap-20 text-white">

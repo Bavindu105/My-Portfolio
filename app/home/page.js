@@ -26,7 +26,7 @@ export default function HomePage() {
     return (
         <>
             {/* Hero section */}
-            <div className="flex flex-col justify-center items-center w-full h-screen z-0">
+            <div className="flex flex-col justify-center items-center w-full h-screen z-0 bg-black text-white">
 
                 {/* parallax tilt */}
                 <div className="flex absolute bottom-0 justify-center items-center w-[1280px] h-screen">
@@ -74,7 +74,7 @@ export default function HomePage() {
             </div>
 
             {/* About section */}
-            <div className="flex justify-center w-full h-auto bg-[#810CA8]">
+            <div className="flex justify-center w-full h-auto bg-[#810CA8] text-white">
                 <div className="flex flex-col items-center justify-center w-[1280px] py-13 gap-4">
                     <h1 className="font-bold text-[30px] mt-[-10px]">Profile</h1>
                     <p className="font-medium text-[18px] text-center w-full">
