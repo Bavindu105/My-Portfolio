@@ -5,7 +5,6 @@ import { useState } from "react"
 export default function HomePage() {
 
     const [rotate, setRotate] = useState({ x: 0, y: 0 })
-    const [cursorPos, setCursorPos] = useState({ x: -100, y: -100 })
 
     const handleMouseMove = (e) => {
         const rect = e.currentTarget.getBoundingClientRect()
@@ -75,7 +74,14 @@ export default function HomePage() {
             </div>
 
             {/* About section */}
-            {/* <div>aaa</div> */}
+            <div className="flex justify-center w-full h-auto bg-[#810CA8]">
+                <div className="flex flex-col items-center justify-center w-[1280px] py-13 gap-4">
+                    <h1 className="font-bold text-[30px] mt-[-10px]">Profile</h1>
+                    <p className="font-medium text-[18px] text-center w-full">
+                        Lorem ipsum dolor sit amet, loren to la lconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, loren to la lconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, loren to la lconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, loren to la lconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    </p>
+                </div>
+            </div>
         </>
     )
 }
