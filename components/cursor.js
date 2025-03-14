@@ -16,7 +16,7 @@ export default function Cursor() {
   }, []);
 
   return (
-    <div className="fixed pointer-events-none z-[-9999] mix-blend-exclusion"
+    <div className="fixed pointer-events-none z-2 mix-blend-exclusion"
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,

@@ -29,7 +29,7 @@ export default function HomePage() {
             <div className="flex flex-col justify-center items-center w-full h-screen z-0 bg-black text-white">
 
                 {/* parallax tilt */}
-                <div className="flex absolute bottom-0 justify-center items-center w-[1280px] h-screen">
+                <div className="flex absolute bottom-0 justify-center items-center w-[1280px] h-screen z-3">
                     <div
 
                         onMouseMove={handleMouseMove}
@@ -52,7 +52,7 @@ export default function HomePage() {
                 </div>
 
                 {/* Static */}
-                <div className="flex flex-row items-top justify-between h-[55%] w-[1280px] z-2 pointer-events-none">
+                <div className="flex flex-row items-top justify-between h-[55%] w-[1280px] z-4 pointer-events-none">
                     <div className="flex flex-col">
                         <h1 className="font-bold text-[80px] mt-[-20px]">Bavindu</h1>
                         <div className="flex flex-row items-center gap-4 mt-[-25px]">
